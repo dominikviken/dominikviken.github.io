@@ -1,39 +1,57 @@
 body {
     background-image: url(background.png);
+    background-size: 100% 100%;
 }
 
 #ip {
-    color: rgb(0, 0, 0);
-    background-color: rgb(94, 212, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 200%;
 
-    border-color: rgb(94, 212, 255);
+    border-color: rgb(0, 0, 0);
     border-style: solid;
     border-width: 5px;
     box-shadow: 5px 5px black;
     border-radius: 5px;
     
-    padding: 0.5%;
+    padding: 0.2%;
 
-    position: fixed; bottom: -2%; left: 32%;
+    position: fixed; bottom: -2%; left: 31.5%;
 }
 
 #ima {
-    color: rgb(0, 0, 0);
-    background-color: rgb(94, 212, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 200%;
 
-    border-color: rgb(94, 212, 255);
+    border-color: rgb(0, 0, 0);
     border-style: solid;
     border-width: 5px;
     box-shadow: 5px 5px rgb(0, 0, 0);
     border-radius: 5px;
     
-    padding: 0.5%;
+    padding: 0.2%;
 
-    position: fixed; bottom: 80%; left: 37%;
+    position: fixed; bottom: 83%; left: 37%;
+}
+
+.icons {
+    width: 5%;
+    transition: 0.2s;
+}
+.icons:hover {
+    scale: 90%;
+}
+
+#rules {
+    width: 8%;
+    position: fixed; bottom: 40%; left: 35%;
+}
+
+#how {
+    position: fixed; bottom: 40%; left: 60%;
 }
