@@ -1,3 +1,14 @@
-.nav {
-    font-size: 150%;
+body {
+    background-image: url(background.png);
+}
+
+#ip {
+    color: white;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+
+    text-shadow: 3px 3px 5px rgb(90, 90, 90);
+
+    position: fixed; bottom: -4%; left: 30%;
 }
