@@ -19,9 +19,7 @@ body {
     
     padding: 0.2%;
 
-    position: relative; bottom: -2%; left: 31.5%;
-    
-    margin: auto;
+    position: fixed; bottom: -2%; left: 31.5%;
 }
 
 #ima {
@@ -39,9 +37,7 @@ body {
     
     padding: 0.2%;
 
-    position: relative; bottom: 83%; left: 37%;
-    
-    margin: auto;
+    position: fixed; bottom: 83%; left: 37%;
 }
 
 .icons {
