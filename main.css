@@ -3,6 +3,7 @@ body {
     background-image: url(images/background.gif);
     background-position: center;
     background-size: cover;
+    background-repeat: repeat;
 }
 
 main {
