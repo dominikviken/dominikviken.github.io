@@ -1,5 +1,4 @@
 body {
-    user-select: none;
     backdrop-filter: blur(7px);
     background-image: url(images/background.gif);
     background-position: center;
